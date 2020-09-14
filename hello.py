@@ -1,0 +1,1 @@
+print('\nHello, Brand!\n')
