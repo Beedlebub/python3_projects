@@ -10,4 +10,4 @@ if calculation_type == "p":
     parallel_result = int(resistor_one/1) + int(resistor_two/1)
     print(('The value in parallel is:', parallel_result, '\n')
 else if:
-    print('Thanks!')
+    print('Thanks, Bra nd!')
