@@ -7,7 +7,7 @@ if calulation_type == "s":
     series_result = int(resistor_one) + int(resistor_two)
     print('The value in series is:', series_result, '\n')
 if calulation_type == "p":
-    parallel_result = int(resistor_one) + int(resistor_two)
+    parallel_result = 1/int(resistor_one) + 1/int(resistor_two)
     print('\nThe value in parallel is:', parallel_result, '\n')
 else:
     print('Thanks, Brand!\n')
