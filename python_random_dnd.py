@@ -23,7 +23,7 @@ player_roll_total = None
 
 
 # the six functions direclty below do the math for creating a
-# mod value based on random base stats rolled above
+# mod value based on the random base stats rolled above
 def init_strength():
     # Allow variables created in this funtion work in other parts of code
     global mod_strength
@@ -222,8 +222,9 @@ def print_all_stats():
     print_modded_stats()
     print()
 
-# start main game loop
-# next iterarion, this will be broken into functions
+
+##### start main game loop
+##### next iterarion, this will be broken into functions
 
 
 # get player's name
@@ -233,11 +234,11 @@ print('\nWelcome, ' + char_name + '! Let\'s roll your character...')
 input('Press Enter to continue...')
 # we roll stats, apply mods, and print them all out
 print_all_stats()
-# aske user to press enter one more time before starting combat
+# ask user to press enter one more time before starting combat
 input('Press Enter to continue...')
 
 # engage enemy
-# On subsequent iterarions, there will be array of random monsters
+# On subsequent iterarions, there will be array of random monsters, with their own stats
 # players will also be able to do more
 print('\nOut of nowhere, a large brute of an Orc leaps out at you.\n')
 monster_combat_die_one = random.randint(1, 10)
@@ -247,7 +248,7 @@ monster_roll_total = monster_combat_die_one + monster_combat_die_two
 # print(str(monster_roll_total) + '\n')
 
 # this section of code asks user to input stat they want to use for combat
-# in furether iterations, they will be error checking to make sure only coorect values can be input
+# in further iterations, there will be error checking to make sure only correct values can be input
 stat_choice = input(
     'Enter the first two letters of the stat you\'d like to use \nfor combat (ex. co for Constitution): ')
 player_combat_roll = random.randint(1, 20)
