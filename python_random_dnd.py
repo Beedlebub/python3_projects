@@ -1,4 +1,5 @@
 # Python "Random" Dundeons and Dragons
+# Brand Inman - MCC TCI - Engineering Technician - Cohort 17
 
 # import library to create random numbers
 import random
