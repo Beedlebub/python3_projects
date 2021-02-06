@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "/home/brand/venv/bin/python3",
+    "python.pythonPath": "/home/beedlebub/venv/bin/python3",
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true
 }
